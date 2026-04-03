@@ -1,6 +1,6 @@
-package calsses;
+package classes;
 import java.util.Scanner;
-import java.util.Arrays;
+
 //ctrl+shift+o to add or remove imports
 public class usingScanner {
     static void main() {
