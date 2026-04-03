@@ -17,10 +17,11 @@ public class ques1 {
             amount += depositAmount;
         }
     }
-    public static void main(String[] args) {
+    static void main(String[] args) {
         Bank bank = new Bank(10000);
-        bank.withdraw(5000);
+        bank.withdraw(500);
         bank.deposit(5000);
+        bank.deposit(8008);
         System.out.println("Total balance: " + bank.amount);
     }
 }
