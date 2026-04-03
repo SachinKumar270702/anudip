@@ -1,4 +1,4 @@
-package calsses;
+package classes;
 
 import java.util.Scanner;
 
@@ -44,11 +44,11 @@ public class operators {
         int isEven=sc.nextInt();
         System.out.println((isEven%2==0)?"even":"odd");*/
         //9
-        char key=sc.next().charAt(0);
-        System.out.println((((key>='a' && key<='z') ||(key>='A' && key<='Z'))?
-                ((key>='A' && key<='Z')?"UpperCase":"LowerCase"):
-                 ((key=='a'||(key=='e')||(key=='i')||(key=='u')||(key=='o')||
-                   (key=='A'||(key=='E')||(key=='I')||(key=='U')||(key=='O'))?"vowel":"consonant")));
+//        char key=sc.next().charAt(0);
+//        System.out.println((((key>='a' && key<='z') ||(key>='A' && key<='Z'))?
+//                ((key>='A' && key<='Z')?"UpperCase":"LowerCase"):
+//                 ((key=='a'||(key=='e')||(key=='i')||(key=='u')||(key=='o')||
+//                   (key=='A'||(key=='E')||(key=='I')||(key=='U')||(key=='O'))?"vowel":"consonant")));
 
         sc.close();
 
